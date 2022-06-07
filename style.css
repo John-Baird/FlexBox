@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(246, 246, 223);
+}
+.flexnav {
+    background-color: goldenrod;
+    display: flex;
+    margin: 0 -20px;
+    
+    
+}
+.nav {
+    flex: 50%;
+    margin: auto 0;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.nav p {
+    margin-left: 30px;
+}
+.nava {
+    flex: 50%;
+    margin: auto 0;
+    text-align: right;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right {
+    margin: 0 30px;
+}
+
+.parent {
+    clear: both;
+}
+
+.content {
+    clear: both;
+    margin-top: 40px;
+    
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.margin {
+    background-color: whitesmoke;
+    border: 3px solid goldenrod;
+    width: 250px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.title {
+    font-size: 22px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.words {
+    max-width: 200px;
+    margin-left: 20px;
+    text-align: left;
+}
+/* Flex is superior */ 
+
+.more {
+    color: white;
+    padding: 20px auto;
+    background-color: goldenrod;
+    border-color: goldenrod;
+    border-radius: 1px;
+    border-width: 3px;
+    border-style: none;
+    padding: 6px 80px;
+    margin-bottom: 30px;
+}
